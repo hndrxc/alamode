@@ -1,7 +1,7 @@
 {
   "name": "omp-alamode",
   "version": "0.1.0",
-  "description": "Aggregate Oh My Pi plugin bundle: lemmeaskchat, tokenmunchers, let-me-see, and flymode",
+  "description": "Aggregate Oh My Pi plugin bundle: lemmeaskchat, tokenmunchers, let-me-see, flymode, and built-in session usage awareness with manual PAYG balance estimates",
   "type": "module",
   "license": "MIT",
   "author": "Carter Hendricks",
@@ -20,7 +20,8 @@
       "src/lemmeaskchat.ts",
       "src/tokenmunchers.ts",
       "src/let-me-see.ts",
-      "src/flymode.ts"
+      "src/flymode.ts",
+      "src/usage-awareness.ts"
     ]
   },
   "engines": {
@@ -33,7 +34,7 @@
     "omp-flymode": "^0.1.0"
   },
   "peerDependencies": {
-    "@oh-my-pi/pi-coding-agent": ">=18.18.3"
+    "@oh-my-pi/pi-coding-agent": ">=18.20.2"
   },
   "peerDependenciesMeta": {
     "@oh-my-pi/pi-coding-agent": {

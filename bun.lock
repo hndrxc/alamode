@@ -11,7 +11,7 @@
         "omp-tokenmunchers": "^0.2.0",
       },
       "peerDependencies": {
-        "@oh-my-pi/pi-coding-agent": ">=18.18.3",
+        "@oh-my-pi/pi-coding-agent": ">=18.20.2",
       },
       "optionalPeers": [
         "@oh-my-pi/pi-coding-agent",
